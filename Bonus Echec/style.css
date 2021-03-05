@@ -1,0 +1,15 @@
+.echec{
+    display: flex;
+    /*
+    Propriété Flex qui combine flex-direction et flex-wrap
+    */
+    flex-flow: column wrap-reverse;
+    width: 50%;
+    height: 200px;
+}
+figcaption{
+    /*
+    Propriété pour cacher un élément
+    */
+    display: none;
+}
